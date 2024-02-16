@@ -1,4 +1,4 @@
-function button2()
-    {
-      alert('Script Working');
-    }
+function buttons()
+{
+  alert('Script Working');
+}
