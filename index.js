@@ -3,8 +3,9 @@ let countEl = document.getElementById("count-el")
 let count = 0
 
 function increment() {
+    var bb = <?php echo 'kk'; ?>;
     count += 1
-    countEl.textContent = count
+    countEl.textContent = bb
 }
 
 function save() {
